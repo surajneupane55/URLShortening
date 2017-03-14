@@ -1,0 +1,20 @@
+<div class="container contact-text background-layout" id="input-field">
+        <%= render 'form' %></br>
+       <div class="container">
+           <div class="row">
+               <div id="fe_text" class="text-danger">
+               </div>
+           </div>
+         <br>
+         <div class="row">
+               <div id="clip-board" title="Copy URL">
+                   <button class='btn btn-success' data-clipboard-target='fe_text' data-clipboard-text='Default clipboard text from attribute' id='d_clip_button' title='Click me to copy to clipboard.'>
+                      <b>Copy <i class='fa fa-clipboard'></i></b>
+                    </button>
+                 <button class='btn btn-danger' id="reset" title='Click me to clear field'>
+                   <b>Clear <i class='fa fa-eraser'></i></b>
+                 </button>
+               </div>
+         </div>
+       </div>
+</div>

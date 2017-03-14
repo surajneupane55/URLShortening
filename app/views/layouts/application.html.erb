@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Urlshortening</title>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yeseva+One|Bree+Serif|Boogaloo|Roboto+Slab|Fira+Sans|Acme|Arvo:700|Baloo|Londrina+Solid">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="menu">
+  <%= render 'layouts/navigation'%>
+  <%= yield %>
+  </body>
+</html>

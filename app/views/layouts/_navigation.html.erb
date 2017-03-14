@@ -1,0 +1,14 @@
+<div class="container">
+  <div class='header'>
+      <%if current_page?(root_path) %>
+          <ul class='nav nav-pills pull-right text-strong'>
+              <li class='active' >
+                  <%= link_to '<strong>Demo</strong><i class="fa fa-sign-in"></i>'.html_safe, new_shorten_path%>
+              </li>
+          </ul>
+      <%end%>
+          <h3 class="text-muted text-uppercase text-center contact-text">
+             <strong> <%=link_to 'URL shortening App',root_path, style: 'color: #E5E5E5 !important;' %></strong>
+          </h3>
+  </div>
+</div>

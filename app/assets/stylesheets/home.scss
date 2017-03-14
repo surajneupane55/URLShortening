@@ -1,0 +1,38 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.menu {
+  position: relative;
+  min-height: auto;
+  background-image: image-path('bg-pattern.png'), #3e593e;
+  /* fallback for old browsers */
+  background-image: url(image-path('bg-pattern.png')), -webkit-linear-gradient(to left, #3e593e, #a2dc59);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: url(image-path('bg-pattern.png')), linear-gradient(to left, #3e593e, #a2dc59);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+.background-layout{
+  background-color: #28384c;
+}
+.contact-text
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+
+ul li a, ul li a:visited {
+  color:  #ffffff !important;
+}
+
+ul li a:hover, ul li a:active {
+  color: #ffffff !important;
+}
+
+ul li.active a {
+  color:  #ffffff !important;
+}
